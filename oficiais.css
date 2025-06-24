@@ -91,11 +91,9 @@
   .evento {
     background-color: #5a35a2;
     border-radius: 5px;
-    margin-top: 10px;
     overflow: hidden;
     height: 100%;
     transition: all 0.3s ease;
-    margin-bottom: 1rem;
     display: flex;
     align-items: center;
     flex-direction: column;
