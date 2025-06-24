@@ -79,6 +79,7 @@
     border-radius: 5px;
     transition: background-color 0.3s;
     width: 224px;
+    margin-top: 100px;
     
   }
   
@@ -90,6 +91,7 @@
   .evento {
     background-color: #5a35a2;
     border-radius: 5px;
+    margin-top: 10px;
     overflow: hidden;
     height: 100%;
     transition: all 0.3s ease;
@@ -109,6 +111,7 @@
     height: 220px; /* Aumentei a altura das imagens */
     object-fit: cover;
     object-position: center;
+    margin-top: 10px;
     border-bottom: 2px solid #5a35a2;
   }
   
