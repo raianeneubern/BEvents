@@ -2102,6 +2102,17 @@ ul.tabs-nav .tab-nav.active {
     color: #777;
 }
 
+.sobre {
+    background-color: #441aad;
+    margin: 1rem 8rem;
+    padding: 1rem;
+    border-radius: 5px;
+    text-align: center;
+    color: #fff;
+    max-width: 60%;
+    justify-content: center;
+} 
+
 /*--------------------------------------------------------------
 # Site Footer
 --------------------------------------------------------------*/
@@ -2220,6 +2231,7 @@ ul.tabs-nav .tab-nav.active {
     color: #fff;
   }
   
+  
   /* Footer */
   footer {
     margin-top: 3rem;
@@ -2254,4 +2266,7 @@ ul.tabs-nav .tab-nav.active {
     .card-img-top {
         height: 250px; /* Altura ainda maior em desktops */
     }
+
+    /* fundo sobre nós */
+
 }
