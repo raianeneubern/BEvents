@@ -8,9 +8,12 @@
     font-style: normal;
 }
 
-body {
+html, body {
     color: #2f2f2f;
     font-family: 'Calibri';
+    width: 100%;
+    min-height: 100%;
+    height: auto;
 }
 
 img {
