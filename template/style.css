@@ -115,8 +115,13 @@ a:hover, a:active {
     position: relative;
 }
 
+/*
+IMG logo de cima
+--------------------------------*/
+
 .site-header .site-title img {
     max-height: 64px;
+    
 }
 
 /*
@@ -978,7 +983,8 @@ a:hover, a:active {
 
 .homepage-regional-events-slider .swiper-slide:hover .event-overlay-link {
     visibility: visible;
-    opacity: 1;
+    opacity: 200%;
+    
 }
 
 .events-partners {
@@ -2122,6 +2128,7 @@ ul.tabs-nav .tab-nav.active {
     text-align: center;
 }
 
+/*Logo do roda pé*/
 .footer-logo img {
     max-width: 15%;
 }
@@ -2150,7 +2157,7 @@ ul.tabs-nav .tab-nav.active {
     width: 16px;
     height: 22px;
     margin: 12px;
-    color: #8f8f8f;
+    color: #ffffff;
     transition: all .35s;
 }
 
@@ -2158,6 +2165,7 @@ ul.tabs-nav .tab-nav.active {
     color: #fff;
 }
 
+/*personalização do botão de subir*/
 .back-to-top {
     position: fixed;
     z-index: 9999;
@@ -2168,10 +2176,9 @@ ul.tabs-nav .tab-nav.active {
     margin-top: -21px;
     border: 2px solid #fff;
     border-radius: 50%;
-    background: #9a28d7;
+    background: #412B63;
     transition: all .35s;
     cursor: pointer;
-
     visibility: hidden;
     opacity: 0;
 }
@@ -2187,13 +2194,14 @@ ul.tabs-nav .tab-nav.active {
     padding-top: 4px;
 }
 
+/*Setinha do botão de levar para cima */
 .back-to-top path {
     fill: #fff;
 }
 
 
 .evento {
-    background-color: #5a35a2;
+    background-color: #412B63;
     border-radius: 5px;
     overflow: hidden;
     height: 100%;
