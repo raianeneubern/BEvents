@@ -11,9 +11,7 @@
 html, body {
     color: #2f2f2f;
     font-family: 'Calibri';
-    width: 100%;
-    min-height: 100%;
-    height: auto;
+    min-height: 100vh;
 }
 
 img {

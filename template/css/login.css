@@ -1,4 +1,6 @@
 * {
+  margin: 0;
+  padding: 0;
   box-sizing: border-box;
   font-family: 'Inter', sans-serif;
 }
@@ -7,13 +9,14 @@ body {
  background-color: #24114B;
  display: flex;
  align-items: center;
+ justify-content: center;
 }
 
 .login-container {
   background-color: #412B63;
   padding: 40px 30px;
   border-radius: 15px;
-  width: 50%;
+  width: 500px;
   text-align: center;
   color: white;
   align-items: center;
