@@ -50,7 +50,7 @@
 
     // Events Slider
     var swiper = new Swiper('.homepage-regional-events-slider', {
-        slidesPerView: 6,
+        slidesPerView: 3,
         spaceBetween: 30,
         loop: true,
         breakpoints: {
