@@ -997,11 +997,27 @@ IMG logo de cima
 }
 
 .events-partners-logos .event-partner-logo {
-    width: 20%;
-    min-width: 220px;
-    margin-top: 80px;
+    width: 200px;
+    height: auto;
+    margin-top: 10px;
     text-align: center;
+    align-items: center;;
 }
+
+.event-partner-logo {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+
+}
+
+.event-partner-logo img {
+    max-width: 200%;
+    height: auto;
+}
+
+
 
 /*--------------------------------------------------------------
 # Newsletter
