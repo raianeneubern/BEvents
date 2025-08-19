@@ -74,7 +74,7 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$USER_HOME$/Local Sites/envy-blog-pro/app/public/wp-content/themes/envy-blog-pro/template-parts/content.php" />
+        <option value="$USER_HOME$/Local Sites/envy-blog-pro/app/public/wp-content/themes/envy-blog-pro/inicial-parts/content.php" />
         <option value="$USER_HOME$/Local Sites/the-business/app/public/wp-content/themes/the-business/assets/front-end/js/main.js" />
         <option value="$USER_HOME$/Local Sites/the-business/app/public/wp-content/themes/the-business/index.php" />
         <option value="$USER_HOME$/Google Drive/Colorlib/08_Photography/Photography_White/html-white/index.html" />
@@ -434,7 +434,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/Local Sites/envy-blog-pro/app/public/wp-content/themes/envy-blog-pro/template-parts/content.php">
+    <entry file="file://$USER_HOME$/Local Sites/envy-blog-pro/app/public/wp-content/themes/envy-blog-pro/inicial-parts/content.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="425">
           <caret line="31" column="28" lean-forward="false" selection-start-line="31" selection-start-column="28" selection-end-line="31" selection-end-column="28" />
@@ -462,7 +462,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/Local Sites/envy-blog-pro/app/public/wp-content/themes/envy-blog-pro/maintenance-page/template/maintenance-page-display.php">
+    <entry file="file://$USER_HOME$/Local Sites/envy-blog-pro/app/public/wp-content/themes/envy-blog-pro/maintenance-page/inicial/maintenance-page-display.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="731">
           <caret line="154" column="15" lean-forward="true" selection-start-line="147" selection-start-column="12" selection-end-line="154" selection-end-column="15" />
