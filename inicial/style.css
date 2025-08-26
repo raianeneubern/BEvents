@@ -2146,12 +2146,10 @@ ul.tabs-nav .tab-nav.active {
 body {
     margin: 0;
     font-family: Arial, sans-serif;
-    background: #fce8e0;
     color: #333;
   }
   
   .site-header {
-    background: #3c1857;
     padding: 10px 0;
   }
   
