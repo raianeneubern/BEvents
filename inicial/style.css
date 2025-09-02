@@ -1199,11 +1199,11 @@ IMG logo de cima
     width: 100%;
 }
 
-.events-list-page .event-content-wrap  {
-    padding: 48px 36px 36px;
-    border: 1px solid #e5e5e5;
+.events-list-page .event-content-wrap {
+    padding: 48px 0px 36px;
+    border: 0px;
     border-top: 0;
-    background: #f3f8f9;
+    background: #fff;
 }
 
 .events-list-page .event-content-wrap .entry-title {
@@ -2146,14 +2146,14 @@ ul.tabs-nav .tab-nav.active {
 body {
     margin: 0;
     font-family: Arial, sans-serif;
-    background: #fce8e0;
+    background: #fff;
     color: #333;
   }
   
-  .site-header {
+  /* .site-header {
     background: #3c1857;
     padding: 10px 0;
-  }
+  } */
   
   .site-header img {
     max-height: 60px;
@@ -2161,7 +2161,7 @@ body {
   
   .site-navigation ul {
     list-style: none;
-    margin: 0;
+    margin: auto;
     padding: 0;
     display: flex;
     justify-content: center;
