@@ -1,8 +1,547 @@
 ﻿@{
-    ViewData["Title"] = "Home Page";
+    ViewData["Title"] = "Home";
 }
 
-<div class="text-center">
-    <h1 class="display-4">Welcome</h1>
-    <p>Learn about <a href="https://learn.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
-</div>
+
+<head>
+    <title>B'Events</title>
+
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+
+    <!-- Bootstrap Icons parte 1 -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css" rel="stylesheet">
+
+    <!-- FontAwesome CSS -->
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+
+    <!-- Swiper CSS -->
+    <link rel="stylesheet" href="css/swiper.min.css">
+
+    <!-- Styles -->
+    <link rel="stylesheet" href="style.css">
+    <script src="js/custom.js"></script>
+</head>
+
+<body>
+    <header class="site-header">
+        <div class="header-bar">
+            <div class="container-fluid">
+                <div class="row align-items-center">
+                    <div class="col-10 col-lg-2 order-lg-1">
+                        <div class="site-branding">
+                            <div class="site-title">
+                                <a href="/inicial/home.html"><img src="/inicial/imagens/logo.png" alt="logo"></a>
+                            </div><!-- .site-title -->
+                        </div><!-- .site-branding -->
+                    </div><!-- .col -->
+
+                    <div class="col-2 col-lg-7 order-3 order-lg-2">
+                        <nav class="site-navigation">
+                            <div class="hamburger-menu d-lg-none">
+                                <span></span>
+                                <span></span>
+                                <span></span>
+                                <span></span>
+                            </div><!-- .hamburger-menu -->
+
+                            <ul>
+                                <li><a href="/eventos/oficiais.html">Oficiais</a></li>
+                                <li><a href="/eventos/privados.html">Privados</a></li>
+                                <li><a href="/eventos/campanhas.html">Campanhas</a></li>
+                                <li><a href="/inicial/sobreNos.html">Contato</a></li>
+                            </ul>
+                        </nav><!-- .site-navigation -->
+                    </div><!-- .col -->
+
+                    <div class="col-lg-3 d-none d-lg-block order-2 order-lg-3">
+                        <!--  Bootstrap Icons parte 2 -->
+                        <a href="/inicial/login.html" style="width: fit-content; height: auto; margin: 0 30px;">
+                            <i class="bi bi-box-arrow-in-right" style="font-size: 35px; color: white;"></i>
+                        </a>
+                    </div>
+                </div><!-- .col -->
+            </div><!-- .row -->
+        </div><!-- .container-fluid -->
+
+        <div class="swiper-container hero-slider">
+            <div class="swiper-slide" data-date="2018/05/01" style="background: url('imagens/home2.jpg') no-repeat">
+                <div class="hero-content">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col flex flex-column justify-content-center">
+                                <div class="entry-header">
+                                    <div class="countdown flex align-items-center">
+                                        <div class="countdown-holder flex align-items-baseline">
+
+                                        </div><!-- .countdown-holder -->
+                                    </div><!-- .countdown -->
+                                    <h2 class="entry-title">Eventos e Campanhas de Barra Bonita <br>Venha conhecer a
+                                        cidade!</h2>
+                                </div><!--- .entry-header -->
+
+                                <div class="entry-footer">
+                                    <a class="btn gradient-bg" href="#">pesquisar
+                                    </a>
+                                </div><!-- .entry-footer" -->
+                            </div><!-- .col -->
+                        </div><!-- .container -->
+                    </div><!-- .hero-content -->
+                </div>
+            </div>
+        </div>
+
+
+    </header><!-- .site-header -->
+    <div class="homepage-featured-events">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <div class="featured-events-wrap flex flex-wrap justify-content-between">
+                        <div class="event-content-wrap positioning-event-1">
+                            <figure>
+                                <a href="#"><img src="imagens/barrafolia.jpg" alt="1"></a>
+                            </figure>
+
+                            <header class="entry-header">
+                                <h3 class="entry-title">Barra Folia</h3>
+
+                                <div class="posted-date">2025</div>
+                            </header>
+                        </div>
+
+                        <div class="event-content-wrap positioning-event-2">
+                            <figure>
+                                <a href="#"><img src="imagens/artesmarciais.jpg" alt=""></a>
+                            </figure>
+
+                            <header class="entry-header">
+                                <h3 class="entry-title">Centro de Artes Marciais</h3>
+
+                                <div class="posted-date">2025</div>
+                            </header>
+                        </div>
+
+                        <div class="event-content-wrap positioning-event-3">
+                            <figure>
+                                <a href="#"><img src="imagens/Guri.jpg" alt=""></a>
+                            </figure>
+
+                            <header class="entry-header">
+                                <h3 class="entry-title">Guri</h3>
+
+                                <div class="posted-date">2024</div>
+                            </header>
+                        </div>
+
+                        <div class="event-content-wrap positioning-event-4 half">
+                            <figure>
+                                <a href="#"><img src="imagens/aproveite.jpg" alt=""></a>
+                            </figure>
+                        </div>
+
+                        <div class="event-content-wrap positioning-event-5 half">
+                            <figure>
+                                <a href="#"><img src="imagens/entretenimento1.jpg" alt=""></a>
+                            </figure>
+                        </div>
+
+                        <div class="event-content-wrap positioning-event-6 half">
+                            <figure>
+                                <a href="#"><img src="imagens/Diversão.jpg" alt=""></a>
+                            </figure>
+                        </div>
+
+                        <div class="event-content-wrap positioning-event-7">
+                            <figure>
+                                <a href="#"><img src="imagens/kombi.jpg" alt=""></a>
+                            </figure>
+
+                            <header class="entry-header">
+                                <h3 class="entry-title">Encontro de Kombis</h3>
+
+                                <div class="posted-date">2022</div>
+                            </header>
+                        </div>
+
+                        <div class="event-content-wrap positioning-event-8">
+                            <figure>
+                                <a href="#"><img src="imagens/motos.jpg" alt="1"></a>
+                            </figure>
+
+                            <header class="entry-header">
+                                <h3 class="entry-title">Competição de Motos</h3>
+
+                                <div class="posted-date">2025</div>
+                            </header>
+                        </div>
+
+                        <div class="event-content-wrap positioning-event-9">
+                            <figure>
+                                <a href="#"><img src="imagens/anonovo.jpg" alt=""></a>
+                            </figure>
+
+                            <header class="entry-header">
+                                <h3 class="entry-title">Reveillon</h3>
+
+                                <div class="posted-date">2023</div>
+                            </header>
+                        </div>
+
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="homepage-next-events">
+        <div class="container">
+            <div class="row">
+                <div class="next-events-section-header">
+                    <h2 class="entry-title">Eventos da Semana</h2>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-12 col-sm-6 col-md-4">
+                    <div class="next-event-wrap">
+                        <figure>
+                            <a href="#"><img src="images/next1.jpg" alt="1"></a>
+
+                            <div class="event-rating">8.9</div>
+                        </figure>
+
+                        <header class="entry-header">
+                            <h3 class="entry-title">Barra Rock Fest</h3>
+
+                            <div class="posted-date">Sexta a Domingo <span>Set 7 a 9, 2025</span></div>
+                        </header>
+
+                        <div class="entry-content">
+                            <p>Vestibulum eget lacus at mauris sagittis varius. Etiam ut venenatis dui. Nullam tellus
+                                risus.</p>
+                        </div>
+
+                        <footer class="entry-footer">
+                            <a href="#">Buy Tikets</a>
+                        </footer>
+                    </div>
+                </div>
+
+                <div class="col-12 col-sm-6 col-md-4">
+                    <div class="next-event-wrap">
+                        <figure>
+                            <a href="#"><img src="images/next1.jpg" alt="1"></a>
+
+                            <div class="event-rating">7.9</div>
+                        </figure>
+
+                        <header class="entry-header">
+                            <h3 class="entry-title">TED Talk California</h3>
+
+                            <div class="posted-date">Saturday <span>Jan 27, 2018</span></div>
+                        </header>
+
+                        <div class="entry-content">
+                            <p>Eget lacus at mauris sagittis varius. Etiam ut ven enatis dui. Nullam tellus risus,
+                                pellentesque.</p>
+                        </div>
+
+                        <footer class="entry-footer">
+                            <a href="#">Buy Tikets</a>
+                        </footer>
+                    </div>
+                </div>
+
+                <div class="col-12 col-sm-6 col-md-4">
+                    <div class="next-event-wrap">
+                        <figure>
+                            <a href="#"><img src="images/next1.jpg" alt="1"></a>
+
+                            <div class="event-rating">9.9</div>
+                        </figure>
+
+                        <header class="entry-header">
+                            <h3 class="entry-title">Ultra Music Miami</h3>
+
+                            <div class="posted-date">Saturday <span>Jan 27, 2018</span></div>
+                        </header>
+
+                        <div class="entry-content">
+                            <p>Lacus at mauris sagittis varius. Etiam ut venenatis dui. Nullam tellus risus,
+                                pellentesque at facili.</p>
+                        </div>
+
+                        <footer class="entry-footer">
+                            <a href="#">Buy Tikets</a>
+                        </footer>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="homepage-regional-events">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <header
+                        class="regional-events-heading entry-header flex flex-wrap justify-content-between align-items-center">
+                        <h2 class="entry-title">Eventos</h2>
+
+                        <div class="select-location">
+                            <select>
+                                <option>Eventos dessa semana</option>
+                                <option>Eventos desse mês</option>
+                                <option>Eventos de hoje</option>
+                            </select>
+                        </div>
+                    </header>
+
+                    <div class="swiper-container homepage-regional-events-slider">
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide">
+                                <figure>
+                                    <img src="/inicial/imagens/barra rock.jpg" alt="">
+
+                                    <a class="event-overlay-link flex justify-content-center align-items-center"
+                                        href="#">+</a>
+                                </figure><!-- .hero-image -->
+
+                                <div class="entry-header">
+                                    <h2 class="entry-title">Barra Rock Fest </h2>
+                                </div><!--- .entry-header -->
+
+                                <div class="entry-footer">
+                                    <div class="posted-date">Sexta a Domingo <span>Set 7 a 9, 2025</span></div>
+                                </div><!-- .entry-footer" -->
+                            </div><!-- .swiper-slide -->
+
+                            <div class="swiper-slide">
+                                <figure>
+                                    <img src="/inicial/imagens/Niverbarra.png" alt="">
+
+                                    <a class="event-overlay-link flex justify-content-center align-items-center"
+                                        href="#">+</a>
+                                </figure><!-- .hero-image -->
+
+                                <div class="entry-header">
+                                    <h2 class="entry-title">Aniversário de Barra Bonita </h2>
+                                </div><!--- .entry-header -->
+
+                                <div class="entry-footer">
+                                    <div class="posted-date"> Sexta a Quarta <span>14 a 19, 2025</span></div>
+                                </div><!-- .entry-footer" -->
+                            </div><!-- .swiper-slide -->
+
+                            <div class="swiper-slide">
+                                <figure>
+                                    <img src="/inicial/imagens/Maratona.png" alt="">
+
+                                    <a class="event-overlay-link flex justify-content-center align-items-center"
+                                        href="#">+</a>
+                                </figure><!-- .hero-image -->
+
+                                <div class="entry-header">
+                                    <h2 class="entry-title">Maratona</h2>
+                                </div><!--- .entry-header -->
+
+                                <div class="entry-footer">
+                                    <div class="posted-date">Domingo <span>Mar 16, 2025</span></div>
+                                </div><!-- .entry-footer" -->
+                            </div><!-- .swiper-slide -->
+
+                            <div class="swiper-slide">
+                                <figure>
+                                    <img src="/inicial/imagens/reveillon.jpg" alt="">
+
+                                    <a class="event-overlay-link flex justify-content-center align-items-center"
+                                        href="#">+</a>
+                                </figure><!-- .hero-image -->
+
+                                <div class="entry-header">
+                                    <h2 class="entry-title">Reveillon </h2>
+                                </div><!--- .entry-header -->
+
+                                <div class="entry-footer">
+                                    <div class="posted-date">Terça <span>31, 2024</span></div>
+                                </div><!-- .entry-footer" -->
+                            </div><!-- .swiper-slide -->
+
+                            <div class="swiper-slide">
+                                <figure>
+                                    <img src="/inicial/imagens/barra rock.jpg" alt="">
+
+                                    <a class="event-overlay-link flex justify-content-center align-items-center"
+                                        href="#">+</a>
+                                </figure><!-- .hero-image -->
+
+                                <div class="entry-header">
+                                    <h2 class="entry-title">Circuito Paulista de Atletismo</h2>
+                                </div><!--- .entry-header -->
+
+                                <div class="entry-footer">
+                                    <div class="posted-date"> Sábado <span>Jun 14, 2025</span></div>
+                                </div><!-- .entry-footer" -->
+                            </div><!-- .swiper-slide -->
+
+                            <div class="swiper-slide">
+                                <figure>
+                                    <img src="/inicial/imagens/BarraFolia.png" alt="">
+
+                                    <a class="event-overlay-link flex justify-content-center align-items-center"
+                                        href="#">+</a>
+                                </figure><!-- .hero-image -->
+
+                                <div class="entry-header">
+                                    <h2 class="entry-title">Barra Folia</h2>
+                                </div><!--- .entry-header -->
+
+                                <div class="entry-footer">
+                                    <div class="posted-date">Sábado a Terça <span>Mar 1 a 4, 2025</span></div>
+                                </div><!-- .entry-footer" -->
+                            </div><!-- .swiper-slide -->
+
+                            <div class="swiper-slide">
+                                <figure>
+                                    <img src="/inicial/imagens/festa do trabalhador.jpg" alt="">
+
+                                    <a class="event-overlay-link flex justify-content-center align-items-center"
+                                        href="#">+</a>
+                                </figure><!-- .hero-image -->
+
+                                <div class="entry-header">
+                                    <h2 class="entry-title">Festa do Trabalhador </h2>
+                                </div><!--- .entry-header -->
+
+                                <div class="entry-footer">
+                                    <div class="posted-date">Quinta <span>Mai 1, 2025</span></div>
+                                </div><!-- .entry-footer" -->
+                            </div><!-- .swiper-slide -->
+                        </div><!-- .swiper-wrapper -->
+
+                        <!-- Add Arrows -->
+                        <div class="swiper-button-next flex justify-content-center align-items-center">
+                            <span><svg viewBox="0 0 1792 1792" xmlns="http://www.w3.org/2000/svg">
+                                    <path
+                                        d="M1171 960q0 13-10 23l-466 466q-10 10-23 10t-23-10l-50-50q-10-10-10-23t10-23l393-393-393-393q-10-10-10-23t10-23l50-50q10-10 23-10t23 10l466 466q10 10 10 23z" />
+                                </svg></span>
+                        </div>
+
+                        <div class="swiper-button-prev flex justify-content-center align-items-center">
+                            <span><svg viewBox="0 0 1792 1792" xmlns="http://www.w3.org/2000/svg">
+                                    <path
+                                        d="M1203 544q0 13-10 23l-393 393 393 393q10 10 10 23t-10 23l-50 50q-10 10-23 10t-23-10l-466-466q-10-10-10-23t10-23l466-466q10-10 23-10t23 10l50 50q10 10 10 23z" />
+                                </svg></span>
+                        </div>
+                    </div><!-- .swiper-container -->
+
+                    <div class="events-partners">
+                        <header class="entry-header">
+                            <h2 class="entry-title">Patrocinadores</h2>
+                        </header>
+
+                        <div class="events-partners-logos flex flex-wrap justify-content-between align-items-center">
+                            <div class="event-partner-logo">
+                                <a href="https://barrabonita.sp.gov.br/"><img src="/inicial/imagens/logo_prefeitura.png"
+                                        alt=""></a>
+                            </div>
+
+                            <div class="event-partner-logo">
+                                <a href="https://etecbarrabonita.cps.sp.gov.br/"><img
+                                        src="/inicial/imagens/logo_etec_barra_bonita.png" alt=""></a>
+                            </div>
+
+                            <div class="event-partner-logo">
+                                <a href="http://www.saopaulo.sp.gov.br/"><img src="/inicial/imagens/logo_governo.png"
+                                        alt=""></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="homepage-info-section">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 col-md-4 col-lg-5">
+                    <figure>
+                        <img src="/inicial/imagens/logo-2.png" alt="logo">
+                    </figure>
+                </div>
+
+                <div class="col-12 col-md-8 col-lg-7">
+                    <header class="entry-header">
+                        <h2 class="entry-title">Quem somos nós e qual é o nosso propósito?</h2>
+                    </header>
+
+                    <div class="entry-content">
+                        <p>Somos um site que apresenta eventos e campanhas de Barra Bonita! Entregamos praticidade para
+                            você que mora ou deseja visitar a cidade Simpatia! </p>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer class="site-footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <figure class="footer-logo">
+                        <a href="#"><img src="/inicial/imagens/logo.png" alt="logo"></a>
+                    </figure>
+
+                    <nav class="footer-navigation">
+                        <ul class="flex flex-wrap justify-content-center align-items-center">
+                            <li><a href="#">Oficiais</a></li>
+                            <li><a href="#">Privados</a></li>
+                            <li><a href="#">Campanhas</a></li>
+                            <li><a href="#">Contato</a></li>
+                        </ul>
+                    </nav>
+
+                    <!-- Link back to Colorlib can't be removed. inicial is licensed under CC BY 3.0. -->
+                    &copy;
+                    <script>document.write(new Date().getFullYear());</script> Todos os direitos são reservados.</a>
+
+                    <div class="footer-social">
+                        <ul class="flex flex-wrap justify-content-center align-items-center">
+                            <li><a href="#"><i class="fa fa-pinterest"></i></a></li>
+                            <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
+                            <li><a href="#"><i class="fa fa-instagram"></i></a></li>
+                            <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+                            <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <div class="back-to-top flex justify-content-center align-items-center">
+        <span><svg viewBox="0 0 1792 1792" xmlns="http://www.w3.org/2000/svg">
+                <path
+                    d="M1395 1184q0 13-10 23l-50 50q-10 10-23 10t-23-10l-393-393-393 393q-10 10-23 10t-23-10l-50-50q-10-10-10-23t10-23l466-466q10-10 23-10t23 10l466 466q10 10 10 23z" />
+            </svg></span>
+    </div>
+
+    <script type='text/javascript' src='js/jquery.js'></script>
+    <script type='text/javascript' src='js/masonry.pkgd.min.js'></script>
+    <script type='text/javascript' src='js/jquery.collapsible.min.js'></script>
+    <script type='text/javascript' src='js/swiper.min.js'></script>
+    <script type='text/javascript' src='js/jquery.countdown.min.js'></script>
+    <script type='text/javascript' src='js/circle-progress.min.js'></script>
+    <script type='text/javascript' src='js/jquery.countTo.min.js'></script>
+    <script type='text/javascript' src='js/custom.js'></script>
+
+</body>
+</html>
