@@ -228,8 +228,20 @@ IMG logo de cima
     transition: all .35s;
 }
 
+.nav-menu {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    gap: 20px; /* opcional, só pra espaçamento entre os itens */
+}
+
 .site-navigation.show {
     height: auto;
+}
+
+.site-navigation.show .nav-menu {
+    flex-direction: column;
+    padding-top: 30px;
 }
 
 .site-navigation ul {
@@ -243,8 +255,10 @@ IMG logo de cima
     overflow-x: scroll;
     padding: 30px;
     margin: 0;
-    background: #9a28d7;
+    background: #a55ace;
+    opacity: 96%;
     transition: all 0.35s;
+    justify-self: start;
 }
 
 .site-navigation.show ul {
@@ -877,19 +891,27 @@ IMG logo de cima
 # Homepage - Regional Events
 --------------------------------------------------------------*/
 .homepage-regional-events {
-    min-height: 1500px;
-    padding-top: 280px;
+    height: fit-content;
+    padding-top: 120px;
     background: url("images/regional-events-bg.jpg") no-repeat;
     background-size: cover;
 }
 
-.homepage-regional-events .regional-events-heading .entry-title {
+.regional-events-heading .entry-title {
     font-size: 60px;
     font-weight: bold;
-    color: #fff;
+    color: #030303;
 }
 
-.homepage-regional-events .select-location select {
+.regional-events-heading {
+    margin-top: 30px;
+}
+
+.entry-title {
+    color:  #030303;
+}
+
+.select-location select {
     padding: 14px 32px;
     margin: 20px 0;
     border: 2px solid #fff;
@@ -907,15 +929,15 @@ IMG logo de cima
     outline: none;
 }
 
-.homepage-regional-events .select-location select option {
-    background: #9a28d7;
+.select-location select option {
+    background: #8d18cc;
     padding: 5px 0;
     outline: none;
 }
 
 .homepage-regional-events-slider {
     position: relative;
-    margin-top: 100px;
+    margin: 100px 0;
     color: #fff;
     text-align: center;
 }
@@ -928,6 +950,14 @@ IMG logo de cima
 .homepage-regional-events-slider figure img {
     display: block;
     width: 100%;
+    height: 15rem;
+}
+
+@media (max-width: 1100px) {
+    .homepage-regional-events-slider figure img {
+        width: 100%;
+        height: 7rem;
+    }
 }
 
 .homepage-regional-events-slider .entry-title {
@@ -997,11 +1027,15 @@ IMG logo de cima
 }
 
 .events-partners-logos .event-partner-logo {
-    width: 200px;
+    width: fit-content;
     height: auto;
     margin-top: 10px;
     text-align: center;
     align-items: center;;
+}
+
+.events-partners-logos {
+    gap: 20px;
 }
 
 .event-partner-logo {
@@ -1009,14 +1043,25 @@ IMG logo de cima
     flex-wrap: wrap;
     justify-content: center;
     gap: 10px;
-
 }
 
 .event-partner-logo img {
     max-width: 200%;
     height: auto;
+    max-height: 150px;
 }
 
+
+@media (max-width: 600px)
+{
+    .events-partners-logos {
+        flex-direction: column;
+    }
+
+    .event-partner-logo img {
+        max-height: 100px;
+    }    
+}
 
 
 /*--------------------------------------------------------------
@@ -1842,6 +1887,13 @@ ul.tabs-nav .tab-nav.active {
     font-weight: bold;
     color: #fff;
     text-align: center;
+}
+
+.posted-date{
+    display: flex;
+    justify-content: center;
+    color: #412B63;
+    gap: 10px;
 }
 
 @media screen and (min-width: 576px){
