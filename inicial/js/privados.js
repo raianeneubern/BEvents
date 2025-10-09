@@ -1,21 +1,21 @@
-const oficiais = [
+const privados = [
     {
-      nome: "Barra Folia",
+      nome: "Banda NSC",
       imagem: "/inicial/imagens/BarraFolia.png",
       link: "/inicial/barrafolia.html"
     },
     {
-      nome: "Barra Rock Fest",
+      nome: "Banda NSC",
       imagem: "/inicial/imagens/barra_rock.jpg",
       link: "/inicial/barrarock.html"
     },
     {
-      nome: "Encontro de carros antigos",
+      nome: "Recital HR - Harmonia da música",
       imagem: "/inicial/imagens/EncontroCarro.jpg",
       link: "/inicial/encontrodecarros.html"
     },
     {
-      nome: "Barra Bonita 142 anos",
+      nome: "Recital de Natal HR - Harmonia da música",
       imagem: "/inicial/imagens/Niverbarra.png",
       link: "/inicial/niverbarra.html"
     },
@@ -25,7 +25,7 @@ const oficiais = [
       link: "#"
     },
     {
-      nome: "14º Meia Maratona",
+      nome: "Evento 6",
       imagem: "/inicial/imagens/Maratona.png",
       link: "/inicial/meiamaratona.html"
     },
@@ -35,36 +35,37 @@ const oficiais = [
       link: "#"
     },
     {
-      nome: "Ano Novo",
+      nome: "Evento 8",
       imagem: "/inicial/imagens/anonovo.jpg",
       link: "#"
     },
     {
-      nome: "Festa do trabalhador",
+      nome: "Evento 9",
       imagem: "/inicial/imagens/FestaTrabalhador.jpg",
       link: "#"
     },
     {
-      nome: "Zuando Moto Fest",
+      nome: "Evento 10",
       imagem: "/inicial/imagens/MotoFest.jpg",
       link: "/inicial/motofest.html"
     },
     {
-      nome: "Barra Magia",
+      nome: "Evento 11",
       imagem: "/inicial/imagens/BarraMagia.jpg",
       link: "/inicial/barramagia.html"
     },
     {
-      nome: "Festival de Dança Internacional",
+      nome: "Evento 12",
       imagem: "/inicial/imagens/FestivalDança.jpg",
       link: "#"
     }
   ];
 
+  
   const galeria = document.querySelector('.galeria');
   galeria.innerHTML = ''; // Limpa o conteúdo existente
 
-  oficiais.forEach(evento => {
+  eventos.forEach(evento => {
     const col = document.createElement('div');
     col.className = "col-12 col-md-6 col-lg-4 mb-4";
 
