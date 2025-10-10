@@ -832,6 +832,14 @@ IMG logo de cima
     color: #232127;
 }
 
+.entry-footer .posted-date {
+    color: #232127;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: center;
+}
+
 .homepage-next-events .next-event-wrap .posted-date {
     margin-top: 12px;
     font-size: 18px;
