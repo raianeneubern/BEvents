@@ -2277,7 +2277,8 @@ body {
   }
   
   .galeria img {
-    width: 250px;
+    /* width: 250px; */
+    object-fit: cover;
     border-radius: 10px;
   }
   

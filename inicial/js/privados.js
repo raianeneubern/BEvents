@@ -15,7 +15,7 @@ const privados = [
       link: "/inicial/encontrodecarros.html"
     },
     {
-      nome: "Recital de Natal HR - Harmonia da música",
+      nome: 'Recital de Natal HR <br>"S.O.S Natal em perigo 3"<br',
       imagem: "/inicial/imagens/Niverbarra.png",
       link: "/inicial/niverbarra.html"
     },
@@ -62,13 +62,13 @@ const privados = [
   ];
 
   
-  const galeria = document.querySelector('.galeria');
-  galeria.innerHTML = ''; // Limpa o conteúdo existente
-
-  eventos.forEach(evento => {
+  const galeria = document.querySelector('.privados'); // seleciona a nova galeria 'privados'
+  galeria.innerHTML = ''; // limpa o conteúdo existente
+  
+  privados.forEach(evento => {
     const col = document.createElement('div');
     col.className = "col-12 col-md-6 col-lg-4 mb-4";
-
+  
     col.innerHTML = `
       <div class="evento card h-100">
         ${evento.link && evento.link !== "#" ? `<a href="${evento.link}">` : ''}
@@ -79,6 +79,7 @@ const privados = [
         </div>
       </div>
     `;
-
+  
     galeria.appendChild(col);
   });
+  
