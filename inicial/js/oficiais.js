@@ -20,9 +20,9 @@ const oficiais = [
       link: "/inicial/niverbarra.html"
     },
     {
-      nome: "Evento 5",
-      imagem: "/inicial/imagens/Guri.jpg",
-      link: "#"
+      nome: "Clássicos do Cinema",
+      imagem: "/inicial/imagens/cinebarra.png",
+      link: "/inicial/cinema.html"
     },
     {
       nome: "14º Meia Maratona",
@@ -30,13 +30,12 @@ const oficiais = [
       link: "/inicial/meiamaratona.html"
     },
     {
-      nome: "Evento 7",
-      imagem: "",
-      link: "#"
+      nome: "Copa Barra Bonita 2025",
+      imagem: "/inicial/imagens/copabarra25.jpg",
+      link: "/inicial/copabarra.html"
     },
-    {
-      nome: "Ano Novo",
-      imagem: "/inicial/imagens/anonovo.jpg",
+    {nome: "Festival de Dança Internacional",
+      imagem: "/inicial/imagens/FestivalDança.jpg",
       link: "#"
     },
     {
@@ -55,8 +54,8 @@ const oficiais = [
       link: "/inicial/barramagia.html"
     },
     {
-      nome: "Festival de Dança Internacional",
-      imagem: "/inicial/imagens/FestivalDança.jpg",
+      nome: " Réveillon 2026",
+      imagem: "/inicial/imagens/anonovo.jpg",
       link: "#"
     }
   ];

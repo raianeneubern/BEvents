@@ -40,7 +40,7 @@ const campanhas = [
       link: ""
     },
     {
-      nome: "Evento 9",
+      nome: "Doação de Sangue",
       imagem: "",
       link: ""
     },
