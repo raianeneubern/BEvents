@@ -34,14 +34,14 @@ const oficiais = [
       imagem: "/inicial/imagens/copabarra25.jpg",
       link: "/inicial/copabarra.html"
     },
-    {nome: "Festival de Dança Internacional",
+    {nome: "Festival Internacional de Dança",
       imagem: "/inicial/imagens/FestivalDança.jpg",
-      link: "#"
+      link: "/inicial/festivaldedanca.html"
     },
     {
       nome: "Festa do trabalhador",
       imagem: "/inicial/imagens/FestaTrabalhador.jpg",
-      link: "#"
+      link: "/inicial/trabalhador.html"
     },
     {
       nome: "Zuando Moto Fest",
@@ -56,7 +56,7 @@ const oficiais = [
     {
       nome: " Réveillon 2026",
       imagem: "/inicial/imagens/anonovo.jpg",
-      link: "#"
+      link: "/inicial/anonovo.html"
     }
   ];
 
