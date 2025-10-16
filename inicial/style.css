@@ -9,7 +9,7 @@
 }
 
 html, body {
-    color: #2f2f2f;
+    color: white;
     font-family: 'Calibri';
     min-height: 100vh;
 }
@@ -1869,7 +1869,7 @@ ul.tabs-nav .tab-nav.active {
 --------------------------------------------------------------*/
 .site-footer {
     padding: 75px 0;
-    background: #08011e;
+    background: #210e51;
     text-align: center;
 }
 
@@ -1884,6 +1884,8 @@ ul.tabs-nav .tab-nav.active {
     margin: 32px 0 0;
     list-style: none;
 }
+
+
 
 .footer-navigation li {
     font-size: 16px;
